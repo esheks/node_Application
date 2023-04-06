@@ -1,14 +1,7 @@
 const express = require('express');
 const rateLimit = require('express-rate-limit');
 
-const path = require('path');
-const cfenv = require('cfenv');
 
- 
-const appEnv = cfenv.getAppEnv();
-const url = process.env.url
-app.set('port', (process.env.PORT || 3100))
-app.use(express.static(__dirname ))
 
 const app = express();
 
